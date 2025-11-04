@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use update_account::Metadata;
 
-declare_id!("FkeyV5F9SVuq6hbMqtxrHqX1MDHrwQ2jsNug1MaBN9jf");
+declare_id!("BcWmUdwpC7aMnSW9NH6SaeMSH98jFAG7riwHNAA7DjxD");
 
 #[program]
 pub mod account_reloading {

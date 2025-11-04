@@ -7,14 +7,14 @@ resolution = false
 skip-lint = false
 
 [programs.localnet]
-account_reloading = "FkeyV5F9SVuq6hbMqtxrHqX1MDHrwQ2jsNug1MaBN9jf"
+account_reloading = "BcWmUdwpC7aMnSW9NH6SaeMSH98jFAG7riwHNAA7DjxD"
 update-account = "FkupZMtPZnEQQBybKwU5DMiALS9D7G7VZxfKDJBojUvb"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
