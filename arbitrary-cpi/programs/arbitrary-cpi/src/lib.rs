@@ -3,7 +3,7 @@ use arbitrary_cpi_expected::cpi::accounts::{InitializeSecret, VerifyPin};
 use arbitrary_cpi_expected::SecretInformation;
 use program::ArbitraryCpi;
 
-declare_id!("44C7R1FuGPwn559MhjPBCV5sZjibH5NvByF5KPVuGYXn");
+declare_id!("Hiwoi8vctvEe2aZvHJVviCXqvAixw18eyoPrSkRixueP");
 
 #[program]
 pub mod arbitrary_cpi {

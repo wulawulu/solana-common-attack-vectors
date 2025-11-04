@@ -2,7 +2,7 @@ import * as anchor from "@coral-xyz/anchor";
 import { web3 } from "@coral-xyz/anchor";
 
 import { Program } from "@coral-xyz/anchor";
-import { OwnershipCheck } from "../../target/types/ownership_check";
+import { OwnershipCheck } from "../target/types/ownership_check";
 
 describe("ownership-check", () => {
   let provider = anchor.AnchorProvider.env();

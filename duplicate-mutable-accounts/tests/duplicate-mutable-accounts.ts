@@ -3,7 +3,7 @@ import { web3 } from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { assert } from 'chai';
 
-import { DuplicateMutableAccounts } from "../../target/types/duplicate_mutable_accounts";
+import { DuplicateMutableAccounts } from "../target/types/duplicate_mutable_accounts";
 
 describe("duplicate-mutable-accounts", () => {
   let provider = anchor.AnchorProvider.env();

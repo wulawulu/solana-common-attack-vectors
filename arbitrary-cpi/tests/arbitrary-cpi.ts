@@ -3,9 +3,9 @@ import { web3 } from "@coral-xyz/anchor";
 import { assert } from 'chai';
 
 import { Program } from "@coral-xyz/anchor";
-import { ArbitraryCpi } from "../../target/types/arbitrary_cpi";
-import { ArbitraryCpiExpected } from "../../target/types/arbitrary_cpi_expected";
-import { ArbitraryCpiHacked } from "../../target/types/arbitrary_cpi_hacked";
+import { ArbitraryCpi } from "../target/types/arbitrary_cpi";
+import { ArbitraryCpiExpected } from "../target/types/arbitrary_cpi_expected";
+import { ArbitraryCpiHacked } from "../target/types/arbitrary_cpi_hacked";
 
 
 describe("arbitrary-cpi", () => {
@@ -39,7 +39,6 @@ describe("arbitrary-cpi", () => {
     await program_cpi.methods.initializeSecret(0, 1, 2, 5).accounts({
       author: creator.publicKey,
       secretInformation: secretInformation,
-      systemProgram: web3.SystemProgram.programId,
       secretProgram: program_expected.programId
     }).signers([creator]).rpc({ commitment: "confirmed" });
 

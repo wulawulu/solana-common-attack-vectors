@@ -7,13 +7,13 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-duplicate_mutable_accounts = "HK5TJtQq6Jr2t173yCGETEwSGfbFG27Un2CYi6LoY9gK"
+duplicate_mutable_accounts = "9MYG3EmwehCP6HfgmcT97VDT5yJ5Atj74dYNXazGgRfV"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
