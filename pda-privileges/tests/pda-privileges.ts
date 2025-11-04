@@ -8,7 +8,7 @@ import {
 } from "@solana/spl-token";
 import { assert } from "chai";
 import { Program } from "@coral-xyz/anchor";
-import { PdaPrivileges } from "../../target/types/pda_privileges";
+import { PdaPrivileges } from "../target/types/pda_privileges";
 
 describe("pda-privileges", () => {
   let provider = anchor.AnchorProvider.env();

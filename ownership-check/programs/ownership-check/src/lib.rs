@@ -3,7 +3,7 @@ use anchor_spl::token::{Mint, TokenAccount};
 use spl_token::solana_program::program_pack::Pack;
 use spl_token::state::Account as SPLTokenAccount;
 
-declare_id!("C2RLdt8vKtMWQjvapwphttnEJtLghM4bikqCFJgEjndP");
+declare_id!("6u18ytuoVZdVoboAKtrJGSoRknRYhXcxdVue9ZMvMqbD");
 
 #[program]
 pub mod ownership_check {
